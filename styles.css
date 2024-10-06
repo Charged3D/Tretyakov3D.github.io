@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-size: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 main{
@@ -16,6 +17,8 @@ h1{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around; 
 }
 .navbar a{
     color: white;
@@ -27,8 +30,13 @@ h1{
 .navbar a:hover{
     background-color: rgba(22, 123, 177, 0.637);
 }
+.whitefont {
+    color: white;
+    font-size: 30px;
+}
+
 .navbar li{
-    float: center;
+    float: left;
     
 }
 html {
