@@ -28,7 +28,7 @@ h1{
     background-color: rgba(22, 123, 177, 0.637);
 }
 .navbar li{
-    float: left;
+    float: center;
     
 }
 html {
