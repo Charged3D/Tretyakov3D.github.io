@@ -43,12 +43,36 @@ html {
     background-color: rgb(109, 66, 172);
 }
 header, footer {
-    text-align: center;
-}
-header, footer {
     background-color: rgb(189, 35, 206);
     text-align: center;
 }
 footer {
     margin-top: 20px;
+}
+.myButton {
+    width: 50%;  /* Ширина кнопки */
+    height: 10vh;  /* Висота кнопки */
+    font-size: 2rem;  /* Розмір тексту на кнопці */
+    padding: 20px;  /* Відступи всередині кнопки */
+    background-color: lightblue;  /* Колір фону кнопки */
+    border: none;  /* Прибираємо рамку */
+    border-radius: 10px;  /* Закруглені кути */
+    cursor: pointer;  /* Зміна курсору при наведенні */
+    margin-bottom: 200px; /* відстань від низу сторінки до кнопки */
+}
+
+/* Стиль кнопки після натискання */
+.myButton.clicked {
+    background-color: lightgreen;  /* Колір кнопки змінюється на зелений */
+}
+/* Стиль кнопки при наведенні курсору */
+.myButton:hover {
+    background-color: deepskyblue;  /* Змінюємо колір фону на синій */
+    transform: scale(1.05);  /* Збільшуємо кнопку на 5% */
+}
+
+/* Стиль кнопки при наведенні курсору, якщо кнопка активна (клас clicked) */
+.myButton.clicked:hover {
+    background-color: darkgreen;  /* Змінюємо колір фону на темно-зелений при наведенні */
+    transform: scale(1.05);  /* Збільшуємо кнопку на 5% */
 }
