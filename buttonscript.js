@@ -11,4 +11,13 @@ button.addEventListener('click', function() {
     } else {
         this.innerHTML = 'Натисни на мене';
     }
+    this.animate([
+        { transform: 'scale(1)' },      // Початковий стан
+        { transform: 'scale(1.2)' },    // Збільшення до 120%
+        { transform: 'scale(1)' }       // Повернення до початкового розміру
+    ], {
+        duration: 300,  // Тривалість анімації в мілісекундах
+        easing: 'ease-in-out' // Плавність анімації
+    });
+});
 });
