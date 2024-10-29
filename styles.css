@@ -52,7 +52,7 @@ footer {
 .myButton {
     width: 50%;  /* Ширина кнопки */
     height: 10vh;  /* Висота кнопки */
-    font-size: 2rem;  /* Розмір тексту на кнопці */
+    font-size: 5rem;  /* Розмір тексту на кнопці */
     padding: 20px;  /* Відступи всередині кнопки */
     background-color: lightblue;  /* Колір фону кнопки */
     border: none;  /* Прибираємо рамку */

@@ -20,4 +20,3 @@ button.addEventListener('click', function() {
         easing: 'ease-in-out' // Плавність анімації
     });
 });
-});
